@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABOUT ME</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <style>
+      /* .container {
+        display: grid;
+        grid-template-columns: 70% 30%;
+      }
+      .container > div {
+        padding: 1rem;
+        margin: 0.1rem;
+        background: rgb(224, 224, 224);
+        font-family: sans-serif;
+        font-size: 1em;
+      }
+      .container > div:nth-child(odd) {
+        background: rgb(196, 196, 196);
+      }
+      .box1 {
+        grid-column: 20%;
+      }
+      .box1 > div {
+        padding: 2rem;
+        margin: 0.1rem;
+        border: 1rem;
+        background: rgb(223, 223, 223);
+      }
+      .box1 > div:nth-child(even) {
+        background: rgb(168, 168, 168);
+      } */
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 0.2em;
+        justify-content: space-evenly;
+      }
+      .wrapper > div {
+        background: rgb(121, 121, 121);
+      }
+      .wrapper > div:nth-child(odd) {
+        background: rgb(209, 209, 209);
+      }
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+      }
+      /* catatan--------------------------------------------------------------------
+      - gunakan object-fit untuk meringkas foto agar dapat dipotong sesuai cover;
+      - gunakan grid-column 1/3 untuk membuat box berada dlm column 1 sampai 3;
+      - gunakan grid-column 1 untuk berada di kolom pertama;
+      - maksud dari grid-column 1/3 yaitu adalah berada di dalam garis column 1 sampai 3;
+      */
+
+      .box1 {
+        grid-column: 1/3;
+        grid-row: 2;
+      }
+
+      .box2 {
+        grid-column: 3;
+        grid-row: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div>
+        <div class="container-1">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            provident ratione, hic natus architecto eius nam dolore tempora at
+            est!
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+            enim iusto perferendis quibusdam omnis earum repellendus ullam,
+            repellat quidem deleniti.
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+            officia.
+          </div>
+        </div>
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt
+        quos ut ea? Cumque omnis, libero blanditiis quisquam doloremque ipsum
+        aperiam qui repellat assumenda dicta reiciendis accusantium, ipsam
+        beatae illo delectus minus possimus reprehenderit dolore et laboriosam
+        laborum sit sequi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam debitis
+        ullam iusto consequatur. Odio debitis maxime repellendus cupiditate
+        molestiae autem, reprehenderit porro voluptas, nihil optio voluptatibus
+        qui, officiis voluptates accusantium error consequatur aperiam quod
+        praesentium culpa. Modi necessitatibus ab quidem maiores quia nobis
+        aliquid, aspernatur illo quod omnis doloremque soluta.
+      </div>
+      <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
+        sequi ex labore repudiandae tempora voluptatem maxime porro possimus
+        tempore nam perferendis, maiores facilis nostrum, placeat quibusdam
+        ullam quaerat expedita ipsa error. Ratione fuga ullam nihil at
+        dignissimos veritatis, velit ea.
+      </div>
+    </div> -->
+
+    <header>
+      <div class="headerbox">
+        <h1>HTML-CSS-JS TESTING</h1>
+      </div>
+
+      <div class="topnav">
+        <a href="/index.html">HOME</a>
+        <a href="/about.html">ABOUT ME</a>
+        <a href="/work.html">WORK</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </header>
+    <div class="imageHeader">
+      <img
+        src="src/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+        alt="computer"
+      />
+    </div>
+
+    <div class="wrapper">
+      <div class="box1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore fugit
+        quibusdam possimus molestias nam sint consequuntur? Maiores quisquam sit
+        ad perspiciatis! Harum facilis magnam exercitationem alias possimus ab
+        consectetur ea. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Obcaecati voluptatibus adipisci necessitatibus, reiciendis rem libero
+        dignissimos. Eius, deleniti quod. Ad enim nisi pariatur repellat qui
+        incidunt repudiandae aperiam, libero quas porro, dolores ipsum optio ut?
+        Provident officiis atque neque repellat delectus animi! Quae magnam
+        facere ipsum reiciendis blanditiis rerum, assumenda consectetur
+        consequuntur inventore atque, aut tenetur. Maxime nesciunt harum nobis
+        voluptatum! Sit repellendus ut dicta. Impedit soluta accusantium
+        pariatur dignissimos dolor aperiam earum, non quaerat exercitationem.
+        Quasi iure maiores, neque temporibus error, sed quaerat ea officia
+        deserunt labore in perspiciatis sunt itaque magnam dolorem voluptatibus
+        quia quo, cupiditate voluptas veniam!
+      </div>
+
+      <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptates
+        ex amet eaque! Aliquam qui ut amet, ullam eligendi dolor.
+      </div>
+    </div>
+  </body>
+</html>

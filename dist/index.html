@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+  </head>
+  <style>
+    .headerPart {
+      position: relative;
+      object-position: center top;
+    }
+
+    .headerPart img {
+      object-fit: cover;
+      width: 100%;
+      height: 500px;
+    }
+
+    .headerPart .btn {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      background-color: rgba(rgba(0, 0, 0, 0.103), green, blue, alpha);
+      transform: scale(2, 2);
+      border: none;
+      border-radius: 1em;
+      transition: 0.3s;
+      font: 50px;
+    }
+
+    .headerPart .btn:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: minmax(100px, auto);
+      gap: 0.11em;
+    }
+
+    .container > div {
+      background: rgb(255, 255, 255);
+    }
+
+    .container > div :nth-child(odd) {
+      background-color: rgb(197, 197, 197);
+    }
+
+    .box1 {
+      background-color: black;
+      color: white;
+      padding: 1em;
+      grid-column: 2/3;
+    }
+
+    .box2 {
+      display: grid;
+      grid-auto-columns: auto;
+      grid-auto-rows: 1fr 1fr 1fr;
+      text-align: center;
+      row-gap: 0.1em;
+    }
+
+    .box2 > div {
+      background: rgb(172, 172, 172);
+    }
+
+    .box2-1 {
+      grid-row: 1;
+    }
+
+    .box2-2 {
+      grid-row: 2;
+    }
+
+    .box2-3 {
+      grid-row: 3;
+    }
+
+    .inputBox {
+      background-color: rgb(134, 134, 134);
+      margin: 1em;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .btn {
+      margin: 2em 0 3em 2em;
+      padding: 1em;
+    }
+
+    .items {
+      list-style: none;
+    }
+  </style>
+  <body>
+    <!---
+    <div class="container">
+      <div class="box-1">
+        <h1>hello world</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
+          sit molestias laudantium, dolorum tenetur cumque voluptatem amet
+          corporis cupiditate blanditiis atque deserunt modi nostrum, sed vitae
+          similique doloribus, qui aut.
+        </p>
+      </div>
+
+      <div class="box-2">
+        <h1>i am lonely as fuck</h1>
+        <h1>go to hell boys and girl</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
+          sit molestias laudantium, dolorum tenetur cumque voluptatem amet
+          corporis cupiditate blanditiis atque deserunt modi nostrum, sed vitae
+          similique doloribus, qui aut.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et beatae
+          est veniam praesentium repellat. Exercitationem suscipit harum ratione
+          natus nemo. Pariatur magni molestiae dolore vitae tempore laudantium
+          inventore culpa similique.
+        </p>
+      </div>
+    </div>
+    -->
+    <header>
+      <div class="headerBox">
+        <div class="headerbox">
+          <h1>HTML-CSS-JS TESTING</h1>
+        </div>
+
+        <div class="topnav">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT ME</a>
+          <a href="work.html">WORK</a>
+          <a href="#">CONTACT</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="headerPart">
+      <img src="src/jeshoots-com--2vD8lIhdnw-unsplash.jpg" alt="headerImage" />
+      <input class="btn" type="button" value="HERE" />
+    </div>
+
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis
+        consequuntur, excepturi culpa officia libero assumenda tenetur
+        aspernatur praesentium voluptates magnam, quas consequatur harum omnis
+        atque quaerat non aliquid quasi? Hic dolore, voluptates harum cum
+        cupiditate at ab odit distinctio quasi sed similique laboriosam amet
+        iure incidunt blanditiis, eos veritatis voluptatum quos ullam.
+        Perspiciatis recusandae cumque sit reprehenderit veniam sint
+        voluptatibus a, quasi quam dolorem totam repellat alias, qui aperiam
+        corporis doloribus aliquid! Odio repellat magni perferendis nulla
+        provident pariatur.
+      </div>
+
+      <div class="box2">
+        <div class="box2-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+          doloribus!
+        </div>
+        <div class="box2-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, officiis?
+        </div>
+        <div class="box23">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+          culpa.
+        </div>
+      </div>
+      <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis harum
+        eveniet porro aliquam ex eaque facere, enim sit quasi modi vel tempora
+        expedita eum possimus tempore iure temporibus minus. Consectetur, eos
+        soluta a id odio fugit voluptatibus earum, cupiditate, similique commodi
+        explicabo porro maxime? Voluptatem nobis quam, esse nesciunt quidem nam,
+        consequuntur unde laudantium delectus aliquam, quae modi praesentium.
+        Sed unde eum reiciendis sapiente cumque ea laborum omnis hic doloribus
+        adipisci, quasi illum molestias dignissimos quidem nostrum facere nemo
+        vitae accusantium officia dolore? Corrupti nostrum, impedit facere,
+        animi omnis labore magnam mollitia id illo voluptate hic, sunt atque
+        facilis fuga!
+      </div>
+
+      <section class="box1">
+        <form id="my-form" class="boxName">
+          <h1>Add user</h1>
+          <div class="inputBox">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="inputBox">
+            <label for="email">Email:</label>
+            <input type="text" id="email" />
+          </div>
+          <input class="btn" type="submit" value="submit" />
+        </form>
+
+        <ul id="users"></ul>
+        <ul class="items">
+          <li class="item">Item 1</li>
+          <li class="item">Item 2</li>
+          <li class="item">Item 3</li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
